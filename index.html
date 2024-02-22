@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Drink Pairing Game</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Food and Drink Pairing Game</h1>
+        <div class="input-section">
+            <label for="playerName">Enter your name:</label>
+            <input type="text" id="playerName" placeholder="Your Name">
+            <button id="startGame">Start Game</button>
+            <h2>Hello, for this game you have only 4 attepmts to do it so choose wisly!</h2>
+            <h3> The goal of this game is to make the perfect pairing between the drink and food to gain a higher score good luck</h3>
+        </div>
+        <div class="game-section" style="display: none;">
+            <!-- Food Options -->
+            <h2>Choose a Food:</h2>
+            <div id="foodOptions"></div>
+            <!-- Drink Options -->
+            <h2>Choose a Drink:</h2>
+            <div id="drinkOptions"></div>
+            <!-- Pairing Button -->
+            <button id="pairButton">Pair Selection</button>
+            <!-- Paired Items Display -->
+            <div id="pairedItems"></div>
+            <!-- Score Display -->
+            <div id="scoreDisplay">Score: <span id="score">0</span></div>
+            <!-- Attempts Remaining -->
+            <div id="attemptsRemaining"></div>
+        </div>
+    </div>
+
+    <script src="try.js">
+       
+    </script>
+</body>
+</html>
